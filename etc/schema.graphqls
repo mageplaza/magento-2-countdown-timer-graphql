@@ -1,0 +1,43 @@
+type MPCountdownTimerRule @doc(description: "Rule defines all information") {
+    rule_id: String
+    name: String
+    status: String
+    store_ids: String
+    customer_group_ids: String
+    rule_type: String
+    catalog_rule_id: String
+    from_date: String
+    to_date: String
+    priority: String
+    position: String
+    enable_before_start: String
+    clock_style_before: String
+    template_before_product: String
+    template_before_category: String
+    title_color_before: String
+    message_color_before: String
+    clock_color_before: String
+    number_color_before: String
+    text_color_before: String
+    enable_while_running: String
+    clock_style_running: String
+    template_running_product: String
+    template_running_category: String
+    title_color_running: String
+    message_color_running: String
+    clock_color_running: String
+    number_color_running: String
+    text_color_running: String
+    updated_at: String
+    created_at: String
+    save_amount: String
+    save_amount_value: String
+    save_percent: String
+    timezone: String
+    remaining_time: String
+}
+
+interface ProductInterface {
+    mp_countdown_timer_product_rule: MPCountdownTimerRule  @doc(description: "Rule Data") @resolver(class: "Mageplaza\\CountdownTimerGraphQl\\Model\\Resolver\\Rule")
+    mp_countdown_timer_catalog_rule: MPCountdownTimerRule  @doc(description: "Rule Data") @resolver(class: "Mageplaza\\CountdownTimerGraphQl\\Model\\Resolver\\Rule")
+}
