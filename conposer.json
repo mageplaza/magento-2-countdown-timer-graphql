@@ -1,9 +1,6 @@
 {
   "name": "mageplaza/module-countdown-timer-graphql",
   "description": "Magento 2 Countdown Timer GraphQL Extension",
-  "require": {
-    "mageplaza/module-countdown-timer": "^1.0.0"
-  },
   "type": "magento2-module",
   "version": "1.0.0",
   "license": "proprietary",
