@@ -39,8 +39,8 @@ To perform GraphQL queries in Magento, please do the following requirements:
 
 ## 3. Devdocs
 
-- [Countdown Timer API & examples](https://documenter.getpostman.com/view/10589000/TVKA3yYt)
-- [Countdown Timer GraphQL & examples](https://documenter.getpostman.com/view/10589000/TVeqc6z2)
+- [Magento 2 Countdown Timer API & examples](https://documenter.getpostman.com/view/10589000/TVKA3yYt)
+- [Magento 2 Countdown Timer GraphQL & examples](https://documenter.getpostman.com/view/10589000/TVeqc6z2)
 
 
 ## 4. Contribute to this module
